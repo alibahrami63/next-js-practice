@@ -27,6 +27,14 @@
   }
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  grid-row-start: 1;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -84,7 +92,7 @@
 a.primary {
   background: var(--foreground);
   color: var(--background);
-  gap: 8px;
+  gap: 1rem
 }
 
 a.secondary {

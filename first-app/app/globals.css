@@ -35,6 +35,21 @@ a {
   text-decoration: none;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  grid-row-start: 1;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
