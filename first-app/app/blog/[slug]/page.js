@@ -1,8 +1,10 @@
+import styles from '../page.module.css';
+
 export default function BlogPostPage({ params }) {
     return (
-        <main>
-            <h1>Blog post</h1>
+        <div className={styles.page}>
+            <h2>Blog post</h2>
             <p>{ params.slug }</p>
-        </main>
+        </div>
     );
 }

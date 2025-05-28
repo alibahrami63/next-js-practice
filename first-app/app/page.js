@@ -1,11 +1,11 @@
 import styles from "./page.module.css";
-import Nav from "@/components/navigation/navigation";
 
 export default function Home() {
   return (
     console.log("Executing hopme page..."),
     <div className={styles.page}>
-    {/* <Nav /> */}
+      <h2>Welcome to My Portfolio</h2>
+      This is the body of the home page.
     </div>
   );
 }

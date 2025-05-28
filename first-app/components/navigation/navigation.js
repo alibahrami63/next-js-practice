@@ -1,12 +1,10 @@
 import Link from "next/link";
 
-import styles from "./navigation";
-
 export default function Nav() {
   return (
-    <nav className={styles.navbar}>
-        <Link href="/" className="">Home</Link>
-        <Link href="/about" className="">About us</Link>
+    <nav>
+        <Link href="/">Home</Link>
+        <Link href="/about">About me</Link>
         <Link href="/projects">Projects</Link>
         <Link href="/blog">Blog</Link>
     </nav>  
