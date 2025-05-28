@@ -10,7 +10,7 @@
   grid-template-rows: 20px 1fr 20px;
   align-items: center;
   justify-items: center;
-  min-height: 100svh;
+  min-height: 55svh;
   padding: 80px;
   gap: 64px;
   font-family: var(--font-geist-sans);
@@ -25,14 +25,6 @@
     --button-primary-hover: #ccc;
     --button-secondary-hover: #1a1a1a;
   }
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  grid-row-start: 1;
 }
 
 .main {
